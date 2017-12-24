@@ -114,5 +114,10 @@ const CGFloat kHRColorInfoViewCornerRadius = 3.;
     return _hexColorLabel;
 }
 
+- (void) setShowHexInfo:(BOOL)showHexInfo {
+    _hexColorLabel.hidden = !showHexInfo;
+    _borderLayer.hidden = !showHexInfo;
+}
+
 @end
 

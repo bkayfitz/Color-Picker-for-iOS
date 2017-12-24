@@ -31,6 +31,7 @@
 
 @protocol HRColorInfoView
 @property (nonatomic, strong) UIColor *color;
+@property (nonatomic, assign) BOOL showHexInfo;
 @end
 
 @interface HRColorInfoView : UIView <HRColorInfoView>
